@@ -6,6 +6,7 @@ import {
   ShoppingCart, 
   Users, 
   FileText, 
+  UserCheck,
   Settings, 
   LogOut,
   Menu,
@@ -27,6 +28,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
     { id: 'travaux', label: 'Gestion des Travaux', icon: Wrench },
     { id: 'achats', label: 'Gestion des Achats', icon: ShoppingCart },
     { id: 'clients', label: 'Gestion des Clients', icon: Users },
+    { id: 'personnel', label: 'Gestion du Personnel', icon: UserCheck },
     { id: 'documents', label: 'Gestion des Documents', icon: FileText },
     { id: 'settings', label: 'Paramètres', icon: Settings },
   ];
